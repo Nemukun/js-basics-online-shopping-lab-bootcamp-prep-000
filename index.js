@@ -26,6 +26,7 @@ function viewCart() {
     }
     }
 }
+return cart;
 }
 
 
