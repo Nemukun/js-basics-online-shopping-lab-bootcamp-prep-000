@@ -26,7 +26,8 @@ function viewCart() {
 
 
 function total() {
-  // write your code here
+ var totalValue=0;
+ return totalValue;
 }
 
 function removeFromCart(item) {
