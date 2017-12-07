@@ -28,7 +28,7 @@ function viewCart() {
 function total() {
  var totalValue=0;
  for(var i=0;i<cart.length;i++){
-   totalValue+=cart[i][Object.keys(cart[i])];
+   totalValue=totalValue+
  }
  return totalValue;
 }
