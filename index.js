@@ -22,18 +22,7 @@ function viewCart() {
   }else{
     for(var i=0;i<cart.length;i++){
       for(var item in cart[i]){
-        cart.push(`${item} has been added to your cart.`);
-    }
-    }
-}
-return cart;
-}
-
- items.push(item + " at $" + cart[i][item])
- +      }
- +    }
- +    console.log("In your cart, you have " + items.join(", ") + ".");
- +  }
+     
 
 
 function total() {
