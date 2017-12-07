@@ -20,17 +20,14 @@ function viewCart() {
   if(cart.length===0){
     console.log "Your shopping cart is empty.";
   }else{
-    var i=0;
-    while(i<cart.length){
-      
+  var items=[];
+    for(var i=0;i<cart.length;i++){
+    for(var item in cart[i]){
+      items.push
     }
-        
-      }
-      }
     }
-  }
-    
-  }
+}
+}
 }
 
 var items = [];
